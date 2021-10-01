@@ -1,6 +1,6 @@
 ---
-title           : "My preregistration for the COS Preregistration Challenge"
-shorttitle      : "My preregistration"
+title           : "Preregistration: Bat Community Structure In the Cypress Hills pre/post White-Nose Syndrome"
+shorttitle      : "PreReg: Community Structure in Cypress"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
 author: 
@@ -35,6 +35,12 @@ Example: Though there is strong evidence to suggest that sugar affects taste pre
 
 Enter your response here.
 
+-WNS first detected in NY winter 2006
+-has killed off a ton of bats
+-seems to affect only cave hiberators
+-recently reached SK
+-what now?
+
 
 ## Hypotheses
 <!-- List specific, concise, and testable hypotheses. Please state if the hypotheses are directional or non-directional. If directional, state the direction. A predicted effect is also appropriate here. If a specific interaction or moderation is important to your research, you can list that as a separate hypothesis.
@@ -42,6 +48,12 @@ Enter your response here.
 Example: If taste affects preference, then mean preference indices will be higher with higher concentrations of sugar. -->
 
 Enter your response here.
+
+-Will see a decrease in acoustic detections of Myotis lucifugus
+-Decrease in juvenile Myotis
+-May see an increase in L. moctivagans (silver haired bats)
+-May see a decrease in E. fuscus (Big Brown Bats) pop
+
 
 
 # Design Plan
