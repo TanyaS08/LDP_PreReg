@@ -8,6 +8,8 @@ author:
     affiliation : 1
   - name        : Ernst-August Doelle
     affiliation : "1,2"
+  - name        : Javad Meghrazi
+    affiliation : "2"
 
 affiliation:
   - id          : 1
