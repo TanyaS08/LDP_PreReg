@@ -151,7 +151,7 @@ We will continue to return to these sites each year until 2030. We will also att
 Example: Our target sample size is 280 participants. We will attempt to recruit up to 320, assuming that not all will complete the total task. -->
 
 
-Our target sample size is 3500 individuals. However, we do not have a pre-determined count and cannot control the number of bats we capture each year. 
+Our target sample size is 4000 individuals. However, we do not have a pre-determined count and cannot control the number of bats we capture each year. 
 
 
 ## Sample size rationale
@@ -159,7 +159,7 @@ Our target sample size is 3500 individuals. However, we do not have a pre-determ
 
 Example: We used the software program G*Power to conduct a power analysis. Our goal was to obtain .95 power to detect a medium effect size of .25 at the standard .05 alpha error probability. -->
 
-We do not have control over how many bats we will capture a night. We are assuming based anecdotal knowledge or previous experience that after three months we will capture 100-200 bats, and after forty years of data collection we will collect around 4000 bats.However, since we do not raise mist nets in the rain or in high winds that would reduce our capture numbers. If we only have two people collecting data in a year, that limits the number of nets we can put up and could reduce our capture numbers. Therefore, our target sample size is 3500 bats.
+We do not have control over how many bats we will capture a night. We are assuming based anecdotal knowledge and previous experience that in three months we will capture 100-200 bats, and after forty years of data collection we will collect around 4000 bats. 
 
 
 ## Stopping rule
@@ -169,11 +169,9 @@ You may specify a stopping rule based on p-values only in the specific case of s
 
 Example: We will post participant sign-up slots by week on the preceding Friday night, with 20 spots posted per week. We will post 20 new slots each week if, on that Friday night, we are below 320 participants. -->
 
-Every year: 
--End before Field Course starts so mid Aug
--Give researchers time to prep for school year
--Overall data collection period ends 2030 arbitrary; make sure collaborators still have connections to field site/URegina to gain access to field site
--
+Data collection will end each year in mid-August. The field station where researchers live during the field season is owned by the University of Regina, who use the station for an undergraduate class during the last week of August. The field station is closed after that, so data collection will stop mid-August
+
+The project overall will end in 2030. White-Nose Syndrome was first detected in Saskatchewan in 2021. Ending the project 10 years after WNS was first detected allows us to observe bat community structure at the start of the disease, directly after it should have killed the largest number of bats, and ten years later when it should have become endemic to the population. 
 
 
 
@@ -198,8 +196,10 @@ Example: The single outcome variable will be the perceived tastiness of the sing
 
 -Bat species
 -year captured
--capture site
+-Date captured (yyyy-mm-dd)
+-capture site (latitude and longitude)
 -time caught(?)
+-number of individuals captured
 
 
 ## Indices
