@@ -4,7 +4,7 @@ library(dplyr)
 library(ggplot2)
 library(tibble)
 
-# this creates reproducability for random number generators
+# this creates reproducibility for random number generators
 set.seed(16) 
 
 # species initial abundance 
