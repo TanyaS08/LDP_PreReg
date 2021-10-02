@@ -85,11 +85,16 @@ This question has a variety of possible answers. The key is for a researcher to 
 
 Example: We have a between subjects design with 1 factor (sugar by mass) with 4 levels. -->
 
--Timing: between June-Aug from 1991-2030
--Every night that its not raining, wind over 20km/s
--Mist nets will be placed at different sites around Cypress Hills West Block
--Sites determined by previous capture sites to be consistent across years
--
+
+Timing: The Bat Community in the Cypress Hills has been monitored since 1991, and we will continue to monitor the community  until 2030.  Monitoring will start around mid-June every year, depending upon permit permissions. Monitoring will finish in mid-August.  
+
+Study sites: Researchers will place mist nets at various points along Battle Creek in the Cypress Hills West Block. We will choose these sites based on records from previous capture data. We will continue to return to these sites each year until 2030. We will also attempt to net at each site at similar dates each year. 
+
+Field methods: We will raise 1-3 mist nets across Battle Creek at each net site. Number of nets will be chosen based on personnel, time, and previous net set-ups. Each mist net will be raised at last light and we will monitor net activity for three hours per night. Every hour we will record ambient temperature, cloud cover and wind speed. We will close nets if it is raining or wind speed is above 20 km/s. 
+
+We will check the nets every 10 minutes for one hour after last light, and every 15 minutes for the two proceeding hours. If a bat is captured it will be extracted and moved away from the mist nets in order to reduce other bats being attracted to the distress call of the captured bat.  We will take data on each captured bats species, age, sex, and mass. Bats will be released at most half an hour after capture.
+
+
 
 
 
@@ -99,7 +104,7 @@ Example: We have a between subjects design with 1 factor (sugar by mass) with 4 
 
 Example: We will use block randomization, where each participant will be randomly assigned to one of the four equally sized, predetermined blocks. The random number list used to create these four blocks will be created using the web applications available at https://random.org. -->
 
-Enter your response here.
+Not applicable
 
 
 # Sampling Plan
@@ -109,12 +114,7 @@ Enter your response here.
 ## Existing data
 <!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io). -->
 
-**Registration prior to accessing the data**. As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
-
 **Registration prior to analysis of the data**. As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
-
-**Registration following analysis of the data**. As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Please see https://cos.io/prereg for more information.
-
 
 
 ## Explanation of existing data
@@ -124,7 +124,8 @@ An appropriate instance of using existing data would be collecting a sample size
 
 Example: An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point. -->
 
-Enter your response here.
+Capture data from bats in the Cypress Hills has been collected since 1991, and so we have data for this project from 1991 until now. The existing data was collected by other researchers and was used for many different studies over time. These researchers left their raw data available for others to use. Currently, only one of the project members has seen the original data. However, they have only seen the data from 1991-1992, and the 2019 dataset and they have not conducted any prior analyses or investigations of it. The other project members have not seen any of the existing data yet. 
+Furthermore, this project assesses community structure changes before and after the detection of White-nose syndrome in Saskatchewan until 2030. We will not analyze the data until after 2030.
 
 
 ## Data collection procedures
@@ -134,28 +135,31 @@ The answer to this question requires a specific set of instructions so that anot
 
 Example: Participants will be recruited through advertisements at local pastry shops. Participants will be paid $10 for agreeing to participate (raised to $30 if our sample size is not reached within 15 days of beginning recruitment). Participants must be at least 18 years old and be able to eat the ingredients of the pastries. -->
 
-Enter your response here.
+Monitoring will start around mid-June every year, depending upon permit permissions. Monitoring will finish in mid-August.  We will monitor community structure using the capture data we collect from mist nets. 
 
+We will set up 1-3 mist nets at one site each night. Nets will be set up across Battle Creek. Nets will be at least 1m tall, and wide enough the cover the width of the creek.  Nets will be set up at transition sites where the flyway above Battle Creek transitions from a cluttered environment with lots of debris to open sky. Nets will also be placed over calm sections of water, without ripples. 
+
+Each mist net will be raised at last light and we will monitor net activity for three hours per night. Every hour we will record ambient temperature, cloud cover and wind speed. We will close nets if it is raining or wind speed is above 20 km/s. 
+
+We will check the nets every 10 minutes for one hour after last light, and every 15 minutes for the two proceeding hours. If a bat is captured it will be extracted and moved away from the mist nets in order to reduce other bats being attracted to the distress call of the captured bat.  We will take data on each captured bats species, age, sex, and mass. Bats will be released at most half an hour after capture.
+
+We will continue to return to these sites each year until 2030. We will also attempt to net at each site at similar dates each year.
 
 ## Sample size
 <!-- Describe the sample size of your study. How many units will be analyzed in the study? This could be the number of people, birds, classrooms, plots, interactions, or countries included. If the units are not individuals, then describe the size requirements for each unit. If you are using a clustered or multilevel design, how many units are you collecting at each level of the analysis? For some studies, this will simply be the number of samples or the number of clusters. For others, this could be an expected range, minimum, or maximum number.
 
 Example: Our target sample size is 280 participants. We will attempt to recruit up to 320, assuming that not all will complete the total task. -->
 
-no clear sample size, but
--40 yrs data, 3 months per year
--expect approx 100-200 captures per year,
--sample size 4000 indivs captured
+
+Our target sample size is 3500 individuals. However, we do not have a pre-determined count and cannot control the number of bats we capture each year. 
+
 
 ## Sample size rationale
 <!-- This could include a power analysis or an arbitrary constraint such as time, money, or personnel. This gives you an opportunity to specifically state how the sample size will be determined. A wide range of possible answers is acceptable; remember that transparency is more important than principled justifications. If you state any reason for a sample size upfront, it is better than stating no reason and leaving the reader to "fill in the blanks." Acceptable rationales include: a power analysis, an arbitrary number of subjects, or a number based on time or monetary constraints.
 
 Example: We used the software program G*Power to conduct a power analysis. Our goal was to obtain .95 power to detect a medium effect size of .25 at the standard .05 alpha error probability. -->
 
-constraints:
--time
--personnel
--weather
+We do not have control over how many bats we will capture a night. We are assuming based anecdotal knowledge or previous experience that after three months we will capture 100-200 bats, and after forty years of data collection we will collect around 4000 bats.However, since we do not raise mist nets in the rain or in high winds that would reduce our capture numbers. If we only have two people collecting data in a year, that limits the number of nets we can put up and could reduce our capture numbers. Therefore, our target sample size is 3500 bats.
 
 
 ## Stopping rule
@@ -192,7 +196,10 @@ Observational studies and meta-analyses will include only measured variables. As
 
 Example: The single outcome variable will be the perceived tastiness of the single brownie each participant will eat. We will measure this by asking participants ‘How much did you enjoy eating the brownie’ (on a scale of 1-7, 1 being 'not at all', 7 being 'a great deal') and 'How good did the brownie taste' (on a scale of 1-7, 1 being 'very bad', 7 being 'very good'). -->
 
-Enter your response here.
+-Bat species
+-year captured
+-capture site
+-time caught(?)
 
 
 ## Indices
