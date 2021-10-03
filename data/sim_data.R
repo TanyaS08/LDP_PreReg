@@ -12,9 +12,9 @@ set.seed(16)
 init_abundance = 
   tribble(
     ~species, ~init_abund,
-    "sp_1",   1000,
-    "sp_2",   3000,
-    "sp_3",   500,
+    "Myotis lucifugus",   2000,
+    "sp_2",   1000,
+    "Lasionycteris noctivagans",   500,
     "sp_4",   700
   )
 
@@ -67,9 +67,9 @@ pre_wns_abundance =
 wns_sensitivity = 
   tribble(
     ~species, ~init_abund,
-    "sp_1",   -0.9, # very
+    "Myotis lucifugus",   -0.9, # very
     "sp_2",   -0.1,# not
-    "sp_3",   0.1, # increase
+    "Lasionycteris noctivagans",   0.4, # increase
     "sp_4",   0 #unaffected
   )
 
@@ -123,11 +123,15 @@ abundance =
   )
 
 ggplot(abundance) +
-  geom_smooth(aes(x = year,
+  geom_line(aes(x = year,
                   y = abundance,
                   colour = species)) +
   geom_point(aes(x = year,
                  y = abundance,
                  colour = species)) +
   geom_vline(aes(xintercept = 2020)) +
+  labs(
+    x = "Species",
+    y = "Abundance"
+  ) +
   theme_bw()
