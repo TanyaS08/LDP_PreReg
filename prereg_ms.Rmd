@@ -3,25 +3,23 @@ title           : "Preregistration: Bat Community Structure In the Cypress Hills
 shorttitle      : "PreReg: Bat Community Structure in Cypress"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 author: 
-  - name        : First Author
+  - name        : Sophia Fan
     affiliation : 1
   - name        : Javad Meghrazi
+    affiliation : 1
+  - name        : Tanya Strydom
     affiliation : 2
   - name        : Hannah Wilson
     affiliation : 3
-  - name        : Sophia Fan
-    affiliation : 4
       
 affiliation:
     
   - id          : 1
-    institution : Wilhelm-Wundt-University
+    institution : University of British Columbia
   - id          : 2
-    institution : Konstanz Business School
+    institution : Université de Montréal
   - id          : 3
     institution : University of Regina
-  - id          : 4
-    institution : University of British Columbia
 output: prereg::cos_prereg
 editor_options: 
   markdown: 
