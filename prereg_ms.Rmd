@@ -44,15 +44,22 @@ more than 6 million hibernating bats in eastern North America
 @jachowski2014. Notably, the disease has had a pronounced effect on the
 little brown bat, *Myotis lucifugus*, where it's predicted that regional
 population collapse and extirpation could occur as soon as within the
-next 16 years @frick2010a. Because WNS affects bat species
-differentially, community-level monitoring studies are needed to fully
-appreciate and mitigate consequences for community structure and
-ecosystem function @hoyt2021. Recently, researchers have identified
-instances of WNS in Cypress Hills, Saskatchewan, indicating concerning
-disease spread into central Canada (CITATION?). This study aims to
-inform conservation efforts by compiling and comparing bat community
-data from before and after the introduction of WNS in Cypress Hills, in
-addition to constructing population projection models for each species.
+next 16 years @frick2010a. Other species responded variably: some
+studies show that silver-haired bat (*Lasionycteris noctivagans)*
+detection rates increased following WNS [@jachowski2014a; @nocera2019],
+while results for big brown bats (*Eptesicus fuscus*) are mixed, but
+most studies seem to show that their numbers increased following
+competitive relaxation from other declining bat species
+[@jachowski2014b; @francl2012; @morningstar2019; @nocera2019a]. Because
+WNS affects bat species differentially, community-level monitoring
+studies are needed to fully appreciate and mitigate consequences for
+community structure and ecosystem function @hoyt2021. Recently,
+researchers have identified instances of WNS in Cypress Hills,
+Saskatchewan, indicating concerning disease spread into central Canada.
+This study aims to inform conservation efforts by compiling and
+comparing bat community data from before and after the introduction of
+WNS in Cypress Hills, in addition to constructing population projection
+models for each species.
 
 ## Hypotheses
 
@@ -62,7 +69,9 @@ lucifugus*) along with declines in most other bat species within an
 infected community.
 
 **Directional**: We expect to see an **increase** in silver-haired bats
-(*Lasionycteris noctivagans*) (CITATION?).
+(*Lasionycteris noctivagans*) and big brown bats (*Eptesicus fuscus*)
+due to competitive release from other declining bats within the
+community.
 
 # Design Plan
 
@@ -250,8 +259,10 @@ Observational studies and meta-analyses will include only measured variables. As
 
 Example: The single outcome variable will be the perceived tastiness of the single brownie each participant will eat. We will measure this by asking participants ‘How much did you enjoy eating the brownie’ (on a scale of 1-7, 1 being 'not at all', 7 being 'a great deal') and 'How good did the brownie taste' (on a scale of 1-7, 1 being 'very bad', 7 being 'very good'). -->
 ```
-We are going to be measuring the population size of the bat species in the Cypress Hills before and after the detection of White-nose Syndrome. We will measure this by counting how many bats of each we catch in mist nets each year.  
-
+We are going to be measuring the population size of the bat species in
+the Cypress Hills before and after the detection of White-nose Syndrome.
+We will measure this by counting how many bats of each we catch in mist
+nets each year.
 
 ## Indices
 
