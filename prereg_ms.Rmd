@@ -5,7 +5,7 @@ date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\.
 author: 
   - name        : Sophia Fan
     affiliation : 1
-  - name        : Keerthi krutha
+  - name        : Keerthi Krutha
     affiliation : 3
   - name        : Javad Meghrazi
     affiliation : 1
