@@ -38,9 +38,23 @@ on bat community structure in Cypress Hills, Saskatchewan, Canada.
 
 ## Description
 
-White-nose syndrome (WNS) is an infectious fungal disease of bats that was first detected in New York City in the winter of 2006 @jachowski2014. Since its first detection it has affected and killed more than 6 million hibernating bats in eastern North America @jachowski2014. WNS affects bat species differentially with the little brown bat (*Myotis lucifugus*) being the most adversely affected species @frick2010a, @hoyt2021. Due to the differential gradient in the effect of WNS on different bat species, there is a dire need for community-level studies on bat populations and regional scale monitoring programs in order to  mitigate adverse effects of WNS @hoyt2021. The mitigation of WNS's effects can aid in mitigating consequences for community structure and ecosystem function, since bats play key roles in pollination and seed dispersal @hoyt2021. 
+White-nose syndrome (WNS) is an infectious fungal disease of bats 
+that was first detected in New York City in the winter of 2006 @jachowski2014. 
+Since its first detection it has affected and killed more than 6 million 
+hibernating bats in eastern North America @jachowski2014. 
+WNS affects bat species differentially with the little brown bat (*Myotis lucifugus*) 
+being the most adversely affected species @frick2010a, @hoyt2021. 
+Due to the differential gradient in the effect of WNS on different bat species, 
+there is a dire need for community-level studies on bat populations and regional 
+scale monitoring programs in order to  mitigate adverse effects of WNS @hoyt2021. 
+The mitigation of WNS's effects can aid in mitigating consequences for community 
+structure and ecosystem function, since bats play key roles in pollination and seed dispersal @hoyt2021. 
 
-Instances of WNS in bats in Canada are .......... . In the predominatly priare province of Saskatchewan in Canada, bat populations have been studied since ca.XXXX (Citation). However, recently in ca. 2019, researchers have identified instances of WNS in the Cypress Hills region, Saskatchewan, indicating a  spread into central Canada (CITATION?). This study aims to inform conservation efforts by compiling and comparing bat community data from before and after the introduction of WNS in Cypress Hills, in
+Instances of WNS in bats in Canada are .......... . In the predominatly priare province of 
+Saskatchewan in Canada, bat populations have been studied since ca.XXXX (Citation). 
+However, recently in ca. 2019, researchers have identified instances of WNS in the 
+Cypress Hills region, Saskatchewan, indicating a  spread into central Canada (CITATION?). 
+This study aims to inform conservation efforts by compiling and comparing bat community data from before and after the introduction of WNS in Cypress Hills, in
 addition to constructing population projection models for each species.
 
 ## Hypotheses
