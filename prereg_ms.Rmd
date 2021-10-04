@@ -88,31 +88,15 @@ experiments, and regression discontinuity designs.
 No blinding is involved in this study.
 
 ## Study design
+Describe your study design. Examples include two-group, factorial, randomized block, and repeated measures. Is it a between (unpaired), within-subject (paired), or mixed design? Describe any counterbalancing required. Typical study designs for observation studies include cohort, cross sectional, and case-control studies.
+Example: We have a between subjects design with 1 factor (sugar by mass) with 4 levels. 
+More info: This question has a variety of possible answers. The key is for a researcher to be as detailed as is necessary given the specifics of their design. Be careful to determine if every parameter has been specified in the description of the study design. There may be some overlap between this question and the following questions. That is OK, as long as sufficient detail is given in one of the areas to provide all of the requested information. For example, if the study design describes a complete factorial, 2 X 3 design and the treatments and levels are specified previously, you do not have to repeat that information.
 
-Timing: The Bat Community in the Cypress Hills has been monitored since
-1991, and we will continue to monitor the community until 2030.
-Monitoring will start around mid-June every year, depending upon permit
-permissions. Monitoring will finish in mid-August.
 
-Study sites: Researchers will place mist nets at various points along
-Battle Creek in the Cypress Hills West Block. We will choose these sites
-based on records from previous capture data. We will continue to return
-to these sites each year until 2030. We will also attempt to net at each
-site at similar dates each year.
+-Cohort study (prospective)
+-General bat population in Cypress
 
-Field methods: We will raise 1-3 mist nets across Battle Creek at each
-net site. Number of nets will be chosen based on personnel, time, and
-previous net set-ups. Each mist net will be raised at last light and we
-will monitor net activity for three hours per night. Every hour we will
-record ambient temperature, cloud cover and wind speed. We will close
-nets if it is raining or wind speed is above 20 km/s.
 
-We will check the nets every 10 minutes for one hour after last light,
-and every 15 minutes for the two proceeding hours. If a bat is captured
-it will be extracted and moved away from the mist nets in order to
-reduce other bats being attracted to the distress call of the captured
-bat. We will take data on each captured bats species, age, sex, and
-mass. Bats will be released at most half an hour after capture.
 
 ## Randomization
 
@@ -166,9 +150,17 @@ The answer to this question requires a specific set of instructions so that anot
 
 Example: Participants will be recruited through advertisements at local pastry shops. Participants will be paid $10 for agreeing to participate (raised to $30 if our sample size is not reached within 15 days of beginning recruitment). Participants must be at least 18 years old and be able to eat the ingredients of the pastries. -->
 ```
+
+Timing: The Bat Community in the Cypress Hills has been monitored since
+1991, and we will continue to monitor the community until 2030.
 Monitoring will start around mid-June every year, depending upon permit
-permissions. Monitoring will finish in mid-August. We will monitor
-community structure using the capture data we collect from mist nets.
+permissions. Monitoring will finish in mid-August.
+
+Study sites: Researchers will place mist nets at various points along
+Battle Creek in the Cypress Hills West Block. We will choose these sites
+based on records from previous capture data. We will continue to return
+to these sites each year until 2030. We will also attempt to net at each
+site at similar dates each year.
 
 We will set up 1-3 mist nets at one site each night. Nets will be set up
 across Battle Creek. Nets will be at least 1m tall, and wide enough the
@@ -189,8 +181,6 @@ reduce other bats being attracted to the distress call of the captured
 bat. We will take data on each captured bats species, age, sex, and
 mass. Bats will be released at most half an hour after capture.
 
-We will continue to return to these sites each year until 2030. We will
-also attempt to net at each site at similar dates each year.
 
 ## Sample size
 
