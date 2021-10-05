@@ -66,12 +66,13 @@ species survivorship into the future.
 
 ## Hypotheses
 
-We expect to see white-nose syndrome affect bat species differently in
-the Cypress Hill region of Saskatchewan, Canada (See Figure 1).
+We expect to see white-nose syndrome affect bat species differently
+in the Cypress Hill region of Saskatchewan, Canada (See Figure 1),
+in line with similar trends found in affected eastern North American
+bat populations. Specifically:
 
-**Directional**: Like other parts of eastern North America, we expect to
-see pronounced population **declines** in little brown bats (*Myotis
-lucifugus*).
+**Directional**: We expect to see pronounced population **declines**
+in little brown bats (*Myotis lucifugus*).
 
 **Directional**: We expect to see population **increases** in
 silver-haired bats (*Lasionycteris noctivagans*) and big brown bats
