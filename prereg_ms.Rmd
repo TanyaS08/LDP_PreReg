@@ -319,12 +319,9 @@ Enter your response here.
 
 ## Missing data
 
-```{=html}
-<!-- How will you deal with incomplete or missing data? Any relevant explanation is acceptable. As a final reminder, remember that the final analysis must follow the specified plan, and deviations must be either strongly justified or included as a separate, exploratory analysis.
-
-Example: If a subject does not complete any of the three indices of tastiness, that subject will not be included in the analysis. -->
-```
-Enter your response here.
+We might expect bat records not to have a species identifier. As this is the
+data of interest these records will have to be removed as there is no feasible
+way to impute the missing data.
 
 ## Exploratory analyses (optional)
 
