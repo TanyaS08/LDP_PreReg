@@ -76,8 +76,7 @@ lucifugus*).
 
 **Directional**: We expect to see population **increases** in
 silver-haired bats (*Lasionycteris noctivagans*) and big brown bats
-(*Eptesicus fuscus*) due to competitive release from other declining
-bats within the community.
+(*Eptesicus fuscus*) due to reduced interspecific competition. 
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
