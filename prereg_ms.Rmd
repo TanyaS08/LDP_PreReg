@@ -94,10 +94,17 @@ No blinding is involved in this study.
 
 ## Study design
 
-Design: Case-control design equivalent to a two-group design.
+**Design:** Case-control design equivalent to a two-group design.
 
-Assumption: No two same individual bats were sampled before and after
-*P. destructans* detection. Therefore, we will be using unpaired design.
+**Assumption:** No two same individual bats were sampled before and
+after *P. destructans* detection. Therefore, we will be using unpaired
+t-test (design). 
+We plan on using this design because our study is a
+before/after study of a bat population affected by the pathogen *P.
+destructans.* We assume that we will not have any recaptures and
+therefore, we will use an unpaired t-test. We recognise that this can be
+mixed design but since we make the above assumption we decide to use
+only unpaired design.
 
 ## Randomization
 
@@ -270,7 +277,7 @@ If you are using multiple pieces of data to construct a single variable, how wil
 
 Example: We will take the mean of the two questions above to create a single measure of 'brownie enjoyment.'  -->
 ```
-Enter your response here.
+Not applicable
 
 # Analysis Plan
 
