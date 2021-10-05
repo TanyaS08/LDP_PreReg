@@ -19,9 +19,10 @@ affiliation:
   - id          : 1
     institution : University of British Columbia
   - id          : 2
-    institution : Université de Montréal
-  - id          : 3
     institution : University of Regina
+  - id          : 3
+    institution : Université de Montréal
+
 output: prereg::cos_prereg
 editor_options: 
   markdown: 
