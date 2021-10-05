@@ -23,7 +23,7 @@ std_dev = 200
 
 # years pre WNS
 
-years_pre = c(1990, 2000, 2010, 2020)
+years_pre = c(2010, 2020)
 
 # years post WNS
 
@@ -69,7 +69,7 @@ post_wns_abundance =
   rbind(
     # sp1
     tibble(abundance = round(
-      pull(pre_wns_abundance[4,1]) * exp(as.numeric(init_abundance[1,3]) * 1:length(years_post)) 
+      pull(pre_wns_abundance[2,1]) * exp(as.numeric(init_abundance[1,3]) * 1:length(years_post)) 
       %>% jitter(10)
     ),
     year = years_post,
@@ -77,7 +77,7 @@ post_wns_abundance =
                   length(years_post))),
     # sp2
     tibble(abundance = round(
-      pull(pre_wns_abundance[8,1]) * exp(as.numeric(init_abundance[2,3]) * 1:length(years_post)) 
+      pull(pre_wns_abundance[4,1]) * exp(as.numeric(init_abundance[2,3]) * 1:length(years_post)) 
       %>% jitter(10)
     ),
     year = years_post,
@@ -85,7 +85,7 @@ post_wns_abundance =
                   length(years_post))),
     # sp3
     tibble(abundance = round(
-      pull(pre_wns_abundance[12,1]) * exp(as.numeric(init_abundance[3,3]) * 1:length(years_post)) 
+      pull(pre_wns_abundance[6,1]) * exp(as.numeric(init_abundance[3,3]) * 1:length(years_post)) 
       %>% jitter(10)
     ),
     year = years_post,
@@ -113,7 +113,8 @@ abundance =
   ) %>%
   group_by(year) %>%
   mutate(
-    abundance = abundance/sum(abundance)
+    abundance = abundance/sum(abundance,
+                              na.rm = TRUE)
   ) %>%
   filter(species != "Bat sp. 3")
 
