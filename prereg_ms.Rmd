@@ -1,5 +1,5 @@
 ---
-title           : "Preregistration: Bat Community Structure In the Cypress Hills pre/post White-Nose Syndrome"
+title           : "Preregistration: Effects of white-nose syndrome (WNS) on bat community structure in Cypress Hills, Saskatchewan, Canada."
 shorttitle      : "PreReg: Bat Community Structure in Cypress"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 author: 
@@ -34,8 +34,7 @@ bibliography: references.bib
 
 ## Title
 
-`r rmarkdown::metadata$title` Effects of white-nose syndrome (WNS) on
-bat community structure in Cypress Hills, Saskatchewan, Canada.
+`r rmarkdown::metadata$title`
 
 ## Description
 
