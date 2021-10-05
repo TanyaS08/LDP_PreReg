@@ -81,15 +81,6 @@ species, such as silver-haired bats (*Lasionycteris noctivagans*).
 due to competitive release from other declining bats within the
 community.
 
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-source("data/sim_data.R")
-```
-
-```{r plot, echo=FALSE, fig.cap = "Expected changes in bat species frequencies after the introduction of white nose syndrome in 2019 the Cypress hill region of Saskatchewan Province.", message=FALSE, warning=FALSE}
-p
-```
-
 # Design Plan
 
 <!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
@@ -296,24 +287,33 @@ Enter your response here.
 
 # Analysis Plan
 
-```{=html}
-<!-- You may describe one or more confirmatory analysis in this preregistration. Please remember that all analyses specified below must be reported in the final article, and any additional analyses must be noted as exploratory or hypothesis generating.
+It's hypothesized that the community would undergo similar changes as eastern coast populations. Following equations aim to describe changes in the size of populations of different bat species. Some coefficients should be estimated based on Saskatchewan bat community data from 1990-2021 (growth rate, carrying capacity and competition coefficients) and some from previous studies in east coast(transmission rate)populations and then predication can be made for Saskatchewan bat community. 
+$$
+N_{i,t+1} = N_{i,t}r_i (1+\frac{K_i-N_{i,t}- \sum_{i = 1}^{n}{\alpha_{i,j} N_{j,t}}}{K})-I_{i,t}
+$$
+Where:
+$N_{i,t}$ is the population size of species i at time t 
+$r_i$ is the intrinsic growth rate of species i 
+$K_i$ is the carrying capacity for species i 
+$\alpha_{i,j}$ is the coefficent for competition effect of species j on species i. 
+$I_{i,t}$ is the number of individuals infected with WNS at time t. It's assumed that all of these individuals will dye before next time point. This parameter is calculated as follow: 
+$$
+I_{i,t+1}=d_iI_{i,t}\frac{N_{i,t}}{k_i}
+$$
+Where $d_i$ is the transmission rate of WNS in species i.
+It's assumed that transmission of diseas is density dependent. 
 
-A confirmatory analysis plan must state up front which variables are predictors (independent) and which are the outcomes (dependent), otherwise it is an exploratory analysis. You are allowed to describe any exploratory work here, but a clear confirmatory analysis is required. -->
-```
+Estimation of coefficients: 
+$r$, $K$ and $\alpha$: They should be calculated based on the data gathered sofar (1991-2021) using genetic algorithm (or any other optimization method?).
+
+$d$: depends on the objective of study:
+1- If we are going to make predictions for future dynamics of populations, previous studies should be used to estimate this parameter. It should be considered that $d$ probably won't stay constant over time and evolutionary dynamics of host and parasite would affect it.
+2- If we are going to estimate $d$ in each of these populations after the end of study, similar method as other coefficients can be used.
+
+Note that in both cases an initial number of infected individuals at year 2021 is required ($I_{i,t=2021}$).
+
 ## Statistical models
-
-```{=html}
-<!-- What statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions, subgroup analyses, pairwise or complex contrasts, or follow-up tests from omnibus tests. If you plan on using any positive controls, negative controls, or manipulation checks you may mention that here. Remember that any test not included here must be noted as an exploratory test in your final article.
-
-This is perhaps the most important and most complicated question within the preregistration. As with all of the other questions, the key is to provide a specific recipe for analyzing the collected data. Ask yourself: is enough detail provided to run the same analysis again with the information provided by the user? Be aware for instances where the statistical models appear specific, but actually leave openings for the precise test. See the following examples:
-
-- If someone specifies a 2x3 ANOVA with both factors within subjects, there is still flexibility with the various types of ANOVAs that could be run. Either a repeated measures ANOVA (RMANOVA) or a multivariate ANOVA (MANOVA) could be used for that design, which are two different tests. 
-- If you are going to perform a sequential analysis and check after 50, 100, and 150 samples, you must also specify the p-values you’ll test against at those three points.
-
-Example:  We will use a one-way between subjects ANOVA to analyze our results. The manipulated, categorical independent variable is 'sugar' whereas the dependent variable is our taste index. -->
-```
-Enter your response here.
+The model provides some predictions for population of different species at different time points and we can test our hypothesis using a chi-2 goodness of fit test.Besides, power analysis will be conducted using `pwr` package. A single test should be conducted for all for species over 2021-2030 period. If the test finds significant difference, then an exploratory test should be conducted (further details explained in next sections) to determine new values for the coefficients using the data from Saskatchewan bat community 2021-2030 using a genetic algorithm optimization method. Then it should be determined if the sample size can support the estimated effect size and again another round of power analysis should be conducted.
 
 ## Transformations
 
@@ -349,21 +349,18 @@ the data of interest these records will have to be removed as there is
 no feasible way to impute the missing data.
 
 ## Exploratory analyses (optional)
-
-```{=html}
-<!-- If you plan to explore your data set to look for unexpected differences or relationships, you may describe those tests here. An exploratory test is any test where a prediction is not made up front, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time.
-
-Example: We expect that certain demographic traits may be related to taste preferences. Therefore, we will look for relationships between demographic variables (age, gender, income, and marital status) and the primary outcome measures of taste preferences. -->
-```
-Enter your response here.
+If the test finds significant difference, then an exploratory test should be conducted to determine new values for the coefficients using the data from Saskatchewan bat community 2021-2030 using a genetic algorithm optimization method. Then it should be determined if the sample size can support the estimated effect size and again another round of power analysis should be conducted.
 
 # Other
 
-## Other (Optional)
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("data/sim_data.R")
+```
 
-<!-- If there is any additional information that you feel needs to be included in your preregistration, please enter it here. Literature cited, disclosures of any related work such as replications or work that uses the same data, or other context that will be helpful for future readers would be appropriate here. -->
-
-Enter your response here.
+```{r plot, echo=FALSE, fig.cap="Expected changes in bat species frequencies after the introduction of white nose syndrome in 2019 the Cypress hill region of Saskatchewan Province.", message=FALSE, warning=FALSE}
+p
+```
 
 # References
 
