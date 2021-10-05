@@ -244,7 +244,9 @@ to the population.
 
 Example: We manipulated the percentage of sugar by mass added to brownies. The four levels of this categorical variable are: 15%, 20%, 25%, or 40% cane sugar by mass. -->
 ```
-Not applicable
+*TK* I'm assuming 'raw' abundance records will be transformed to some 
+measure of frequency/ratio or otherwise 'extrapolated' to some measure
+of abundance?
 
 ## Measured variables
 
