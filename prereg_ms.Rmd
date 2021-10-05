@@ -40,46 +40,44 @@ bat community structure in Cypress Hills, Saskatchewan, Canada.
 ## Description
 
 White-nose syndrome (WNS) is an infectious fungal disease caused by
-*Pseudogymnoascus destructans* targeting hibernating, cave-dwelling
-bats. First detected in New York City in the winter of 2006, it has
-since affected and killed more than 6 million hibernating bats in
-eastern North America @jachowski2014. Notably, the disease has had a
-pronounced effect on the little brown bat, *Myotis lucifugus*, a
-cave-dweller, where it's predicted that regional population collapse and
-extirpation could occur as soon as within the next 16 years @frick2010a.
-Other free-flying bat species responded variably: some studies show that
-silver-haired bat (*Lasionycteris noctivagans)* detection rates
-increased following WNS [@jachowski2014a; @nocera2019], while results
-for big brown bats (*Eptesicus fuscus*) are mixed, but most studies seem
-to show that their numbers increased following competitive relaxation
-from other declining bat species [@jachowski2014b; @francl2012;
-@morningstar2019; @nocera2019a]. Because WNS affects bat species
-differentially, community-level monitoring studies are needed to fully
-appreciate and mitigate consequences for community structure and
-ecosystem function @hoyt2021. In 2021, the first instance of *P.
-destructans* with no bat mortality was reported from the Cypress Hills
-Interprovincial Park in Saskatchewan, Canada (Wilson pers. comm.,
-Lausen-WCS Canada pers. comm.), indicating westward disease spread into
-central Canada. This study aims to inform local bat conservation efforts
-by compiling and comparing bat community data from before and after the
-introduction of WNS in Cypress Hills, in addition to constructing
-population projection models under WNS to predict species survivorship
-into the future.
+*Pseudogymnoascus destructans* targeting hibernating bats. First
+detected in New York City in the winter of 2006, it has since affected
+and killed more than 6 million hibernating bats in eastern North America
+@jachowski2014. Notably, the disease has had a pronounced effect on the
+little brown bat, *Myotis lucifugus*, where it's predicted that regional
+population collapse and extirpation could occur as soon as within the
+next 16 years @frick2010a. Other bat species responded variably: some
+studies show that silver-haired bat (*Lasionycteris noctivagans)*
+detection rates increased following WNS [@jachowski2014a; @nocera2019],
+while results for big brown bats (*Eptesicus fuscus*) are mixed, but
+most studies seem to show that their numbers increased following
+competitive relaxation from other declining bat species
+[@jachowski2014b; @francl2012; @morningstar2019; @nocera2019a]. Because
+WNS affects bat species differentially, community-level monitoring
+studies are needed to fully appreciate and mitigate consequences for
+community structure and ecosystem function @hoyt2021. In 2021, the first
+instance of *P. destructans* with no bat mortality was reported from the
+Cypress Hills Interprovincial Park in Saskatchewan, Canada (Wilson pers.
+comm., Lausen-WCS Canada pers. comm.), indicating westward disease
+spread into central Canada. This study aims to inform local bat
+conservation efforts by compiling and comparing bat community data from
+before and after the introduction of WNS in Cypress Hills, in addition
+to constructing population projection models under WNS to predict
+species survivorship into the future.
 
 ## Hypotheses
 
 We expect to see white-nose syndrome affect bat species differently in
 the Cypress Hill region of Saskatchewan, Canada (See Figure 1).
 
-**Directional**: We expect to see population **declines** in
-cave-dwelling bat species, especially in little brown bats (*Myotis
+**Directional**: Like other parts of eastern North America, we expect to
+see pronounced population **declines** in little brown bats (*Myotis
 lucifugus*).
 
-**Directional**: We expect to see an **increase** in free-flying bat
-species, such as silver-haired bats (*Lasionycteris noctivagans*).
-(*Lasionycteris noctivagans*) and big brown bats (*Eptesicus fuscus*)
-due to competitive release from other declining bats within the
-community.
+**Directional**: We expect to see population **increases** in
+silver-haired bats (*Lasionycteris noctivagans*) and big brown bats
+(*Eptesicus fuscus*) due to competitive release from other declining
+bats within the community.
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
