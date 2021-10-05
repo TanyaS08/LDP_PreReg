@@ -66,17 +66,17 @@ species survivorship into the future.
 
 ## Hypotheses
 
-We expect to see white-nose syndrome affect bat species differently
-in the Cypress Hill region of Saskatchewan, Canada (See Figure 1),
-in line with similar trends found in affected eastern North American
-bat populations. Specifically:
+We expect to see white-nose syndrome affect bat species differently in
+the Cypress Hill region of Saskatchewan, Canada (See Figure 1), in line
+with similar trends found in affected eastern North American bat
+populations. Specifically:
 
-**Directional**: We expect to see pronounced population **declines**
-in little brown bats (*Myotis lucifugus*).
+**Directional**: We expect to see pronounced population **declines** in
+little brown bats (*Myotis lucifugus*).
 
 **Directional**: We expect to see population **increases** in
 silver-haired bats (*Lasionycteris noctivagans*) and big brown bats
-(*Eptesicus fuscus*) due to reduced interspecific competition. 
+(*Eptesicus fuscus*) due to reduced interspecific competition.
 
 # Design Plan
 
@@ -94,30 +94,10 @@ No blinding is involved in this study.
 
 ## Study design
 
-Timing: The Bat Community in the Cypress Hills has been monitored since
-1991, and we will continue to monitor the community until 2030.
-Monitoring will start around mid-June every year, depending upon permit
-permissions. Monitoring will finish in mid-August.
+Design: Case-control design equivalent to a two-group design.
 
-Study sites: Researchers will place mist nets at various points along
-Battle Creek in the Cypress Hills West Block. We will choose these sites
-based on records from previous capture data. We will continue to return
-to these sites each year until 2030. We will also attempt to net at each
-site at similar dates each year.
-
-Field methods: We will raise 1-3 mist nets across Battle Creek at each
-net site. Number of nets will be chosen based on personnel, time, and
-previous net set-ups. Each mist net will be raised at last light and we
-will monitor net activity for three hours per night. Every hour we will
-record ambient temperature, cloud cover and wind speed. We will close
-nets if it is raining or wind speed is above 20 km/s.
-
-We will check the nets every 10 minutes for one hour after last light,
-and every 15 minutes for the two proceeding hours. If a bat is captured
-it will be extracted and moved away from the mist nets in order to
-reduce other bats being attracted to the distress call of the captured
-bat. We will take data on each captured bats species, age, sex, and
-mass. Bats will be released at most half an hour after capture.
+Assumption: No two same individual bats were sampled before and after
+*P. destructans* detection. Therefore, we will be using unpaired design.
 
 ## Randomization
 
@@ -149,18 +129,20 @@ An appropriate instance of using existing data would be collecting a sample size
 
 Example: An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point. -->
 ```
-Capture data from bats in the Cypress Hills has been collected since
-1991, and so we have data for this project from 1991 until now. The
-existing data was collected by other researchers and was used for many
-different studies over time. These researchers left their raw data
-available for others to use. Currently, only one of the project members
-has seen the original data. However, they have only seen the data from
-1991-1992, and the 2019 dataset and they have not conducted any prior
-analyses or investigations of it. The other project members have not
-seen any of the existing data yet. Furthermore, this project assesses
-community structure changes before and after the detection of White-nose
-syndrome in Saskatchewan until 2030. We will not analyze the data until
-after 2030.
+Our access to the dataset has been limited because, all team members
+except Ms. Hannah Wilson come from other departments and laboratories
+with no prior studies conducted on bats. Ms. Wilson is a new student to
+the bat research group to the University of Regina and started in
+September 2021. The dataset we plan to use for our study has been
+collected by multiple trained researchers using the above protocols
+since 1991. Ms. Wilson has seen the dataset with data from 1991-1992 and
+ca. 2019 but has not conducted any form of statistical analysis with it.
+Also, as authors of this study, none of us are aware of any patterns or
+summary statistics relating to the effect of a fungal disease on bats of
+this dataset even though there are publications/results from previous
+studies conducted by other researchers. We plan to only conduct any
+detailed analysis with the data only after 2030 once all data collection
+is complete.
 
 ## Data collection procedures
 
@@ -171,31 +153,39 @@ The answer to this question requires a specific set of instructions so that anot
 
 Example: Participants will be recruited through advertisements at local pastry shops. Participants will be paid $10 for agreeing to participate (raised to $30 if our sample size is not reached within 15 days of beginning recruitment). Participants must be at least 18 years old and be able to eat the ingredients of the pastries. -->
 ```
-Monitoring will start around mid-June every year, depending upon permit
-permissions. Monitoring will finish in mid-August. We will monitor
-community structure using the capture data we collect from mist nets.
+**Study site:** West Block, Cypress Hills Provincial Park, Saskatchewan,
+Canada.
 
-We will set up 1-3 mist nets at one site each night. Nets will be set up
-across Battle Creek. Nets will be at least 1m tall, and wide enough the
-cover the width of the creek. Nets will be set up at transition sites
-where the flyway above Battle Creek transitions from a cluttered
-environment with lots of debris to open sky. Nets will also be placed
-over calm sections of water, without ripples.
+**Study locations:** Previously established capture locations for bats
+along Battle Creek, established by the University of Regina (Wilson
+pers. comm.).
 
-Each mist net will be raised at last light and we will monitor net
-activity for three hours per night. Every hour we will record ambient
-temperature, cloud cover and wind speed. We will close nets if it is
-raining or wind speed is above 20 km/s.
+**Sampling period:** Mid-June to mid-August every year. Samples will be
+collected until August 2030. Data points from this same period will be
+used from records prior to *P. destructans* incidence starting from
+August 2010.
 
-We will check the nets every 10 minutes for one hour after last light,
-and every 15 minutes for the two proceeding hours. If a bat is captured
-it will be extracted and moved away from the mist nets in order to
-reduce other bats being attracted to the distress call of the captured
-bat. We will take data on each captured bats species, age, sex, and
-mass. Bats will be released at most half an hour after capture.
+**Data collection methods:** We will set up 1-3 mist nets at one site
+each night. Nets will be set up across Battle Creek. Nets will be at
+least 1m tall, and wide enough the cover the width of the creek. We will
+raise nets for three hours after last light and check the nets every
+10min in the first hour after last light and every 15min in the
+subsequent two hours. We will capture and handle bats with
+nitrile-gloves. Once a bat is caught it will be moved away from the net
+in order to avoid attracting other individuals to the captured bat's
+distress call. We will record the age, sex, mass and species of the bat.
 
-We will continue to return to these sites each year until 2030. We will
-also attempt to net at each site at similar dates each year.
+In order to attribute the possible difference in bat population to the
+fungal disease we will collect samples of *P. destructans* by swabbing
+wings and muzzle of the bat follwing @Zakul et al. 2016. We will analyse
+swabs using qPCR (@Zakul et al. 2016).
+
+We will also measurements temperature, cloud cover and wind speed while
+sampling for bats. In case of rain or if wind speed is above 20km/s, we
+will stop sampling. When recording a capture, we will record the date of
+sampling in the ISO format along with a three-letter code of the
+sampling location at Battle creek, the genus and species of bat being
+captured and initials of the personnel collecting the capture
 
 ## Sample size
 
@@ -204,7 +194,7 @@ also attempt to net at each site at similar dates each year.
 
 Example: Our target sample size is 280 participants. We will attempt to recruit up to 320, assuming that not all will complete the total task. -->
 ```
-Our target sample size is 4000 individuals. However, we do not have a
+Our target sample size is 2000 individuals. However, we do not have a
 pre-determined count and cannot control the number of bats we capture
 each year.
 
@@ -215,10 +205,10 @@ each year.
 
 Example: We used the software program G*Power to conduct a power analysis. Our goal was to obtain .95 power to detect a medium effect size of .25 at the standard .05 alpha error probability. -->
 ```
-We do not have control over how many bats we will capture a night. We
-are assuming based anecdotal knowledge and previous experience that in
-three months we will capture 100-200 bats, and after forty years of data
-collection we will collect around 4000 bats.
+We do not have control over how many bats will be captured in a night.
+Therefore, from anecdotal knowledge and previous experience we estimate
+that we will to capture anywhere between 100-200 bats. After twenty
+years of data collection we will have collected around 2000 bats.
 
 ## Stopping rule
 
@@ -284,33 +274,53 @@ Enter your response here.
 
 # Analysis Plan
 
-It's hypothesized that the community would undergo similar changes as eastern coast populations. Following equations aim to describe changes in the size of populations of different bat species. Some coefficients should be estimated based on Saskatchewan bat community data from 1990-2021 (growth rate, carrying capacity and competition coefficients) and some from previous studies in east coast(transmission rate)populations and then predication can be made for Saskatchewan bat community. 
-$$
+It's hypothesized that the community would undergo similar changes as
+eastern coast populations. Following equations aim to describe changes
+in the size of populations of different bat species. Some coefficients
+should be estimated based on Saskatchewan bat community data from
+1990-2021 (growth rate, carrying capacity and competition coefficients)
+and some from previous studies in east coast(transmission
+rate)populations and then predication can be made for Saskatchewan bat
+community. $$
 N_{i,t+1} = N_{i,t}r_i (1+\frac{K_i-N_{i,t}- \sum_{i = 1}^{n}{\alpha_{i,j} N_{j,t}}}{K})-I_{i,t}
-$$
-Where:
-$N_{i,t}$ is the population size of species i at time t 
-$r_i$ is the intrinsic growth rate of species i 
-$K_i$ is the carrying capacity for species i 
-$\alpha_{i,j}$ is the coefficent for competition effect of species j on species i. 
-$I_{i,t}$ is the number of individuals infected with WNS at time t. It's assumed that all of these individuals will dye before next time point. This parameter is calculated as follow: 
-$$
+$$ Where: $N_{i,t}$ is the population size of species i at time t $r_i$
+is the intrinsic growth rate of species i $K_i$ is the carrying capacity
+for species i $\alpha_{i,j}$ is the coefficent for competition effect of
+species j on species i. $I_{i,t}$ is the number of individuals infected
+with WNS at time t. It's assumed that all of these individuals will dye
+before next time point. This parameter is calculated as follow: $$
 I_{i,t+1}=d_iI_{i,t}\frac{N_{i,t}}{k_i}
-$$
-Where $d_i$ is the transmission rate of WNS in species i.
-It's assumed that transmission of diseas is density dependent. 
+$$ Where $d_i$ is the transmission rate of WNS in species i. It's
+assumed that transmission of diseas is density dependent.
 
-Estimation of coefficients: 
-$r$, $K$ and $\alpha$: They should be calculated based on the data gathered sofar (1991-2021) using genetic algorithm (or any other optimization method?).
+Estimation of coefficients: $r$, $K$ and $\alpha$: They should be
+calculated based on the data gathered sofar (1991-2021) using genetic
+algorithm (or any other optimization method?).
 
-$d$: depends on the objective of study:
-1- If we are going to make predictions for future dynamics of populations, previous studies should be used to estimate this parameter. It should be considered that $d$ probably won't stay constant over time and evolutionary dynamics of host and parasite would affect it.
-2- If we are going to estimate $d$ in each of these populations after the end of study, similar method as other coefficients can be used.
+$d$: depends on the objective of study: 1- If we are going to make
+predictions for future dynamics of populations, previous studies should
+be used to estimate this parameter. It should be considered that $d$
+probably won't stay constant over time and evolutionary dynamics of host
+and parasite would affect it. 2- If we are going to estimate $d$ in each
+of these populations after the end of study, similar method as other
+coefficients can be used.
 
-Note that in both cases an initial number of infected individuals at year 2021 is required ($I_{i,t=2021}$).
+Note that in both cases an initial number of infected individuals at
+year 2021 is required ($I_{i,t=2021}$).
 
 ## Statistical models
-The model provides some predictions for population of different species at different time points and we can test our hypothesis using a chi-2 goodness of fit test.Besides, power analysis will be conducted using `pwr` package. A single test should be conducted for all for species over 2021-2030 period. If the test finds significant difference, then an exploratory test should be conducted (further details explained in next sections) to determine new values for the coefficients using the data from Saskatchewan bat community 2021-2030 using a genetic algorithm optimization method. Then it should be determined if the sample size can support the estimated effect size and again another round of power analysis should be conducted.
+
+The model provides some predictions for population of different species
+at different time points and we can test our hypothesis using a chi-2
+goodness of fit test.Besides, power analysis will be conducted using
+`pwr` package. A single test should be conducted for all for species
+over 2021-2030 period. If the test finds significant difference, then an
+exploratory test should be conducted (further details explained in next
+sections) to determine new values for the coefficients using the data
+from Saskatchewan bat community 2021-2030 using a genetic algorithm
+optimization method. Then it should be determined if the sample size can
+support the estimated effect size and again another round of power
+analysis should be conducted.
 
 ## Transformations
 
@@ -346,7 +356,13 @@ the data of interest these records will have to be removed as there is
 no feasible way to impute the missing data.
 
 ## Exploratory analyses (optional)
-If the test finds significant difference, then an exploratory test should be conducted to determine new values for the coefficients using the data from Saskatchewan bat community 2021-2030 using a genetic algorithm optimization method. Then it should be determined if the sample size can support the estimated effect size and again another round of power analysis should be conducted.
+
+If the test finds significant difference, then an exploratory test
+should be conducted to determine new values for the coefficients using
+the data from Saskatchewan bat community 2021-2030 using a genetic
+algorithm optimization method. Then it should be determined if the
+sample size can support the estimated effect size and again another
+round of power analysis should be conducted.
 
 # Other
 
