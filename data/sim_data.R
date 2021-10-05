@@ -122,7 +122,7 @@ abundance =
     post_wns_abundance
   )
 
-ggplot(abundance) +
+p = ggplot(abundance) +
   geom_line(aes(x = year,
                   y = abundance,
                   colour = species)) +

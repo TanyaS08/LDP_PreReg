@@ -61,7 +61,7 @@ addition we also construct population projection models for each species in orde
 
 ## Hypotheses
 
-White nose syndrome may affect bat populations in Cypress hill region of Saskatchewan Province.
+White nose syndrome may affect bat populations in Cypress hill region of Saskatchewan Province (See Figure 1).
 
 **Directional**: We expect to see population **declines** in little brown bats (*Myotis
 lucifugus*) along with declines in most other bat species within an
@@ -69,6 +69,15 @@ infected community.
 
 **Directional**: We expect to see an **increase** in silver-haired bats
 (*Lasionycteris noctivagans*) (CITATION?).
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("data/sim_data.R")
+```
+
+```{r plot, echo=FALSE, fig.cap = "Expected changes in bat species frequencies after the introduction of white nose syndrome in 2019 the Cypress hill region of Saskatchewan Province.", message=FALSE, warning=FALSE}
+p
+```
 
 # Design Plan
 
