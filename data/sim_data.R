@@ -14,7 +14,7 @@ init_abundance =
   tribble(
     ~species, ~init_abund, ~sensitivity,
     "Myotis lucifugus",1500, -0.9, # very
-    "Bat sp. 2",   1000, -0.1,# not
+    "Eptesicus fuscus",   1000, -0.1,# not
     "Lasionycteris noctivagans", 500, 0.4, # increase
     "Bat sp. 3",   700, 0 #unaffected
   )
@@ -114,7 +114,8 @@ abundance =
   group_by(year) %>%
   mutate(
     abundance = abundance/sum(abundance)
-  )
+  ) %>%
+  filter(species != "Bat sp. 3")
 
 p = ggplot(abundance) +
   # line for WNS year
