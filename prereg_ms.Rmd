@@ -34,41 +34,44 @@ bibliography: references.bib
 
 ## Title
 
-`r rmarkdown::metadata$title` Effects of white-nose syndrome (WNS)
-on bat community structure in Cypress Hills, Saskatchewan, Canada.
+`r rmarkdown::metadata$title` Effects of white-nose syndrome (WNS) on
+bat community structure in Cypress Hills, Saskatchewan, Canada.
 
 ## Description
 
-White-nose syndrome (WNS) is an infectious fungal disease of bats 
-that was first detected in New York City in the winter of 2006 @jachowski2014. 
-Since its first detection it has affected and killed more than 6 million 
-hibernating bats in eastern North America @jachowski2014. 
-WNS affects bat species differentially with the little brown bat (*Myotis lucifugus*) 
-being the most adversely affected species @frick2010a, @hoyt2021. 
-Due to the differential gradient in the effect of WNS on different bat species, 
-there is a dire need for community-level studies on bat populations and regional 
-scale monitoring programs in order to  mitigate adverse effects of WNS @hoyt2021. 
-The mitigation of WNS's effects can aid in ensuring effective ecosystem function through the maintenance of community 
-structure, esepcially since bats play key roles in pollination and seed dispersal @hoyt2021. 
-
-Instances of WNS in bats in Canada are .......... . In the predominatly praire province of 
-Saskatchewan in Canada, bat populations have been studied since ca.XXXX (Citation). 
-However, recently in ca. 2019, researchers identified instances of WNS in the 
-Cypress Hills region in Saskatchewan, indicating a  spread into central Canada (CITATION?). 
-Thus, given the adverse nature of WNS on bats, our study aims to inform conservation efforts by 
-compiling and comparing bat community data from before and after the introduction of WNS in Cypress Hills. In 
-addition we also construct population projection models for each species in order to understand differences in species responses to WNS.
+White-nose syndrome (WNS) is an infectious fungal disease caused by
+*Pseudogymnoascus destructans* targeting hibernating, cave-dwelling
+bats. First detected in New York City in the winter of 2006, it has
+since affected and killed more than 6 million hibernating bats in
+eastern North America @jachowski2014. Notably, the disease has had a
+pronounced effect on the little brown bat, *Myotis lucifugus*, where
+it's predicted that regional population collapse and extirpation could
+occur as soon as within the next 16 years @frick2010a. Because WNS
+affects bat species differentially, community-level monitoring studies
+are needed to fully appreciate and mitigate consequences for community
+structure and ecosystem function @hoyt2021. In 2021, the first instance
+of *P. destructans* with no bat mortality was reported from the Cypress
+Hills Interprovincial Park in Saskatchewan, Canada (Wilson pers. comm.,
+Lausen-WCS Canada pers. comm.), indicating westward disease spread into
+central Canada. This study aims to inform local bat conservation efforts
+by compiling and comparing bat community data from before and after the
+introduction of WNS in Cypress Hills, in addition to constructing
+population projection models under WNS to predict species survivorship
+into the future.
 
 ## Hypotheses
 
-White nose syndrome may affect bat populations in Cypress hill region of Saskatchewan Province (See Figure 1).
+We expect to see white-nose syndrome affect bat populations in Cypress
+hill region of Saskatchewan Province (See Figure 1).
 
-**Directional**: We expect to see population **declines** in little brown bats (*Myotis
-lucifugus*) along with declines in most other bat species within an
-infected community.
+**Directional**: We expect to see population **declines** in little
+brown bats (*Myotis lucifugus*) along with declines in most other bat
+species within an infected community.
 
 **Directional**: We expect to see an **increase** in silver-haired bats
-(*Lasionycteris noctivagans*) (CITATION?).
+(*Lasionycteris noctivagans*). (*Lasionycteris noctivagans*) and big
+brown bats (*Eptesicus fuscus*) due to competitive release from other
+declining bats within the community.
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -254,7 +257,7 @@ to the population.
 
 Example: We manipulated the percentage of sugar by mass added to brownies. The four levels of this categorical variable are: 15%, 20%, 25%, or 40% cane sugar by mass. -->
 ```
-*TK* I'm assuming 'raw' abundance records will be transformed to some 
+*TK* I'm assuming 'raw' abundance records will be transformed to some
 measure of frequency/ratio or otherwise 'extrapolated' to some measure
 of abundance?
 
@@ -267,8 +270,10 @@ Observational studies and meta-analyses will include only measured variables. As
 
 Example: The single outcome variable will be the perceived tastiness of the single brownie each participant will eat. We will measure this by asking participants ‘How much did you enjoy eating the brownie’ (on a scale of 1-7, 1 being 'not at all', 7 being 'a great deal') and 'How good did the brownie taste' (on a scale of 1-7, 1 being 'very bad', 7 being 'very good'). -->
 ```
-We are going to be measuring the population size of the bat species in the Cypress Hills before and after the detection of White-nose Syndrome. We will measure this by counting how many bats of each we catch in mist nets each year.  
-
+We are going to be measuring the population size of the bat species in
+the Cypress Hills before and after the detection of White-nose Syndrome.
+We will measure this by counting how many bats of each we catch in mist
+nets each year.
 
 ## Indices
 
@@ -331,9 +336,9 @@ Enter your response here.
 
 ## Missing data
 
-We might expect bat records not to have a species identifier. As this is the
-data of interest these records will have to be removed as there is no feasible
-way to impute the missing data.
+We might expect bat records not to have a species identifier. As this is
+the data of interest these records will have to be removed as there is
+no feasible way to impute the missing data.
 
 ## Exploratory analyses (optional)
 
