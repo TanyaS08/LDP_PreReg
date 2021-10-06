@@ -55,14 +55,14 @@ competitive relaxation from other declining bat species
 WNS affects bat species differentially, community-level monitoring
 studies are needed to fully appreciate and mitigate consequences for
 community structure and ecosystem function @hoyt2021. In 2021, the first
-instance of *P. destructans* with no bat mortality was reported from the
-Cypress Hills Interprovincial Park in Saskatchewan, Canada (Wilson pers.
-comm., Lausen-WCS Canada pers. comm.), indicating westward disease
-spread into central Canada. This study aims to inform local bat
-conservation efforts by compiling and comparing bat community data from
-before and after the introduction of WNS in Cypress Hills, in addition
-to constructing population projection models under WNS to predict
-species survivorship into the future.
+instance of *P. destructans* with no bat mortality was reported in
+Saskatchewan, Canada (Wilson pers. comm., Lausen-WCS Canada pers.
+comm.), indicating westward disease spread into central Canada. This
+study aims to inform local bat conservation efforts by compiling and
+comparing bat community data from before and after the introduction of
+*P. destructans* in the Cypress Hills, in addition to constructing
+population projection models to predict species survivorship into the
+future.
 
 ## Hypotheses
 
@@ -94,17 +94,14 @@ No blinding is involved in this study.
 
 ## Study design
 
-**Design:** Case-control design equivalent to a two-group design.
+**Design:** Case-control study design [@mann2003]. The study group will
+be the bat community in Saskatchewan. Our control group would be the bat
+community in the Cypress Hills before the detection of *P. destructans.*
 
-**Assumption:** No two same individual bats were sampled before and
-after *P. destructans* detection. Therefore, we will be using unpaired
-t-test (design). 
-We plan on using this design because our study is a
-before/after study of a bat population affected by the pathogen *P.
-destructans.* We assume that we will not have any recaptures and
-therefore, we will use an unpaired t-test. We recognise that this can be
-mixed design but since we make the above assumption we decide to use
-only unpaired design.
+**Assumption(s):** No two same individual bats were sampled before and
+after *P. destructans* detection. Proportion of each species captured
+are equal to their proportion in nature. Other factors that may impact
+species decline are minimal.
 
 ## Randomization
 
@@ -136,17 +133,18 @@ An appropriate instance of using existing data would be collecting a sample size
 
 Example: An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point. -->
 ```
-Our access to the dataset has been limited because, all team members
-except Ms. Hannah Wilson come from other departments and laboratories
-with no prior studies conducted on bats. Ms. Wilson is a new student to
-the bat research group to the University of Regina and started in
-September 2021. The dataset we plan to use for our study has been
-collected by multiple trained researchers using the above protocols
-since 1991. Ms. Wilson has seen the dataset with data from 1991-1992 and
-ca. 2019 but has not conducted any form of statistical analysis with it.
-Also, as authors of this study, none of us are aware of any patterns or
-summary statistics relating to the effect of a fungal disease on bats of
-this dataset even though there are publications/results from previous
+Our dataset will be from 2010-2030, and the dataset from 2010-2021
+already exists. Our access to the dataset has been limited because, all
+team members except Ms. Hannah Wilson come from other departments and
+laboratories with no prior studies conducted on bats. Ms. Wilson is a
+new student to the bat research group to the University of Regina and
+started in September 2021. The 2010-2021 dataset we plan to use for our
+study has been collected by multiple trained researchers who are not
+connected with our project. Ms. Wilson has seen the dataset with data
+from 2019 but has not conducted any form of statistical analysis with
+it. Also, as authors of this study, none of us are aware of any patterns
+or summary statistics relating to the effect of a fungal disease on bats
+of this dataset even though there are publications/results from previous
 studies conducted by other researchers. We plan to only conduct any
 detailed analysis with the data only after 2030 once all data collection
 is complete.
@@ -184,14 +182,14 @@ distress call. We will record the age, sex, mass and species of the bat.
 
 In order to attribute the possible difference in bat population to the
 fungal disease we will collect samples of *P. destructans* by swabbing
-wings and muzzle of the bat follwing @Zakul et al. 2016. We will analyse
-swabs using qPCR (@Zakul et al. 2016).
+wings and muzzle of the bat follwing [@zukal2016] We will analyse swabs
+using qPCR [@zukal2016].
 
-We will also measurements temperature, cloud cover and wind speed while
-sampling for bats. In case of rain or if wind speed is above 20km/s, we
-will stop sampling. When recording a capture, we will record the date of
-sampling in the ISO format along with a three-letter code of the
-sampling location at Battle creek, the genus and species of bat being
+We will also measure ambient temperature, cloud cover and wind speed
+every night at each sampling site. In case of rain or if wind speed is
+above 20km/s, we will stop sampling. When recording a capture, we will
+record the date of sampling in the ISO format along with a three-letter
+code of the sampling location, the genus and species of bat being
 captured and initials of the personnel collecting the capture
 
 ## Sample size
@@ -213,9 +211,10 @@ each year.
 Example: We used the software program G*Power to conduct a power analysis. Our goal was to obtain .95 power to detect a medium effect size of .25 at the standard .05 alpha error probability. -->
 ```
 We do not have control over how many bats will be captured in a night.
-Therefore, from anecdotal knowledge and previous experience we estimate
-that we will to capture anywhere between 100-200 bats. After twenty
-years of data collection we will have collected around 2000 bats.
+From anecdotal knowledge and previous experience we estimate that we
+will to capture anywhere between 100-200 bats per summer. Therefore,
+after twenty years of data collection we will have collected around 2000
+bats.
 
 ## Stopping rule
 
@@ -226,18 +225,17 @@ You may specify a stopping rule based on p-values only in the specific case of s
 
 Example: We will post participant sign-up slots by week on the preceding Friday night, with 20 spots posted per week. We will post 20 new slots each week if, on that Friday night, we are below 320 participants. -->
 ```
-Data collection will end each year in mid-August. The field station
-where researchers live during the field season is owned by the
-University of Regina, who use the station for an undergraduate class
+The station where researchers live during the field season is owned by
+the University of Regina, who use the station for an undergraduate class
 during the last week of August. The field station is closed after that,
-so data collection will stop mid-August
+so data collection will stop mid-August.
 
-The project overall will end in 2030. White-Nose Syndrome was first
-detected in Saskatchewan in 2021. Ending the project 10 years after WNS
-was first detected allows us to observe bat community structure at the
-start of the disease, directly after it should have killed the largest
-number of bats, and ten years later when it should have become endemic
-to the population.
+The project overall will end in 2030. *P. destructans* was first
+detected in Saskatchewan in 2021. Ending the project 10 years after the
+fungus was first detected allows us to observe bat community structure
+at the start of the disease, directly after it should have killed the
+largest number of bats, and ten years later when it should have become
+endemic to the population.
 
 # Variables
 
@@ -250,8 +248,8 @@ to the population.
 
 Example: We manipulated the percentage of sugar by mass added to brownies. The four levels of this categorical variable are: 15%, 20%, 25%, or 40% cane sugar by mass. -->
 ```
-'Raw' abundance records will be transformed to a proportional
-abundance which will be used in the modelling process.
+'Raw' abundance records will be transformed to a proportional abundance
+which will be used in the modelling process.
 
 ## Measured variables
 
@@ -263,28 +261,31 @@ Observational studies and meta-analyses will include only measured variables. As
 Example: The single outcome variable will be the perceived tastiness of the single brownie each participant will eat. We will measure this by asking participants ‘How much did you enjoy eating the brownie’ (on a scale of 1-7, 1 being 'not at all', 7 being 'a great deal') and 'How good did the brownie taste' (on a scale of 1-7, 1 being 'very bad', 7 being 'very good'). -->
 ```
 We are going to be measuring the population size of the bat species in
-the Cypress Hills before and after the detection of White-nose Syndrome.
-We will measure this by counting how many bats of each we catch in mist
-nets each year.
+the Cypress Hills before and after the detection of *P. destructans*. We
+will measure this by counting how many bats of each species we catch in
+mist nets each year.
 
 ## Indices
 
 Not applicable.
 
 # Analysis Plan
+
 ### Comparing population size of species before and after WNS
-In order to compare population sizes before and after WNS, we would use population size estimations at 2021 and 2030.
-### Predictive model of bat community composition change
-In order to investigate effect of WNS on bat community as a whole 
-instead of investigating species individually, we have also developed 
-a mathematical framework. Following equations aim to describe changes
-in the size of populations of different bat species. The aim of the model is 
-to test if the effect of WNS on bat community in Saskatchewan is similar to 
-east coast communities. Some coefficients should be estimated based on Saskatchewan 
-bat community data from 1990-2021 (growth rate, carrying capacity and 
-competition coefficients) and some from previous studies in east coast(transmission
-rate)populations and then predication can be made for Saskatchewan bat
-community. $$
+
+In order to compare population sizes before and after WNS, we would use
+population size estimations at 2021 and 2030. \#\#\# Predictive model of
+bat community composition change In order to investigate effect of WNS
+on bat community as a whole instead of investigating species
+individually, we have also developed a mathematical framework. Following
+equations aim to describe changes in the size of populations of
+different bat species. The aim of the model is to test if the effect of
+WNS on bat community in Saskatchewan is similar to east coast
+communities. Some coefficients should be estimated based on Saskatchewan
+bat community data from 1990-2021 (growth rate, carrying capacity and
+competition coefficients) and some from previous studies in east
+coast(transmission rate)populations and then predication can be made for
+Saskatchewan bat community. $$
 N_{i,t+1} = N_{i,t}r_i (1+\frac{K_i-N_{i,t}- \sum_{i = 1}^{n}{\alpha_{i,j} N_{j,t}}}{K})-I_{i,t}
 $$ Where: $N_{i,t}$ is the population size of species i at time t $r_i$
 is the intrinsic growth rate of species i $K_i$ is the carrying capacity
@@ -312,22 +313,23 @@ Note that in both cases an initial number of infected individuals at
 year 2021 is required ($I_{i,t=2021}$).
 
 ## Statistical models
+
 ### Comparing population size of species before and after WNS
-Unpaired student t-tests will be used to compare population size setimates at 
-2021 and 2023. The test should be one tail. Also power analysis should be conducted using
-`pwr` package in R. 
-### Predictive model of bat community composition change
-The model provides some predictions for populations of different species
-at different time points and we can test our hypothesis using a chi-2
-goodness of fit test. Besides, power analysis will be conducted. A single 
-test should be conducted for all for species over 2021-2030 
-period. If the test finds significant difference, then an
-exploratory test should be conducted (further details explained in next
-sections) to determine new values for the coefficients using the data
-from Saskatchewan bat community 2021-2030 using a genetic algorithm
-optimization method. Then it should be determined if the sample size can
-support the estimated effect size and again another round of power
-analysis should be conducted.
+
+Unpaired student t-tests will be used to compare population size
+estimates at 2021 and 2023. The test should be one tail. Also power
+analysis should be conducted using `pwr` package in R. \#\#\# Predictive
+model of bat community composition change The model provides some
+predictions for populations of different species at different time
+points and we can test our hypothesis using a chi-2 goodness of fit
+test. Besides, power analysis will be conducted. A single test should be
+conducted for all for species over 2021-2030 period. If the test finds
+significant difference, then an exploratory test should be conducted
+(further details explained in next sections) to determine new values for
+the coefficients using the data from Saskatchewan bat community
+2021-2030 using a genetic algorithm optimization method. Then it should
+be determined if the sample size can support the estimated effect size
+and again another round of power analysis should be conducted.
 
 ## Transformations
 
@@ -336,7 +338,7 @@ analysis should be conducted.
 
 Example: The "Effect of sugar on brownie tastiness" does not require any additional transformations. However, if it were using a regression analysis and each level of sweet had been categorically described (e.g. not sweet, somewhat sweet, sweet, and very sweet), 'sweet' could be dummy coded with 'not sweet' as the reference category. -->
 ```
-Enter your response here.
+N/A
 
 ## Inference criteria
 
@@ -358,7 +360,7 @@ simultaneously on type I error.
 
 Example: No checks will be performed to determine eligibility for inclusion besides verification that each subject answered each of the three tastiness indices. Outliers will be included in the analysis. -->
 ```
-Enter your response here.
+See missing data
 
 ## Missing data
 
