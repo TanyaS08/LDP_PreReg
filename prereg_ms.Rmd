@@ -272,13 +272,17 @@ nets each year.
 Not applicable.
 
 # Analysis Plan
-
-It's hypothesized that the community would undergo similar changes as
-eastern coast populations. Following equations aim to describe changes
-in the size of populations of different bat species. Some coefficients
-should be estimated based on Saskatchewan bat community data from
-1990-2021 (growth rate, carrying capacity and competition coefficients)
-and some from previous studies in east coast(transmission
+### Comparing population size of species before and after WNS
+In order to compare population sizes before and after WNS, we would use population size estimations at 2021 and 2030.
+### Predictive model of bat community composition change
+In order to investigate effect of WNS on bat community as a whole 
+instead of investigating species individually, we have also developed 
+a mathematical framework. Following equations aim to describe changes
+in the size of populations of different bat species. The aim of the model is 
+to test if the effect of WNS on bat community in Saskatchewan is similar to 
+east coast communities. Some coefficients should be estimated based on Saskatchewan 
+bat community data from 1990-2021 (growth rate, carrying capacity and 
+competition coefficients) and some from previous studies in east coast(transmission
 rate)populations and then predication can be made for Saskatchewan bat
 community. $$
 N_{i,t+1} = N_{i,t}r_i (1+\frac{K_i-N_{i,t}- \sum_{i = 1}^{n}{\alpha_{i,j} N_{j,t}}}{K})-I_{i,t}
@@ -308,12 +312,16 @@ Note that in both cases an initial number of infected individuals at
 year 2021 is required ($I_{i,t=2021}$).
 
 ## Statistical models
-
-The model provides some predictions for population of different species
+### Comparing population size of species before and after WNS
+Unpaired student t-tests will be used to compare population size setimates at 
+2021 and 2023. The test should be one tail. Also power analysis should be conducted using
+`pwr` package in R. 
+### Predictive model of bat community composition change
+The model provides some predictions for populations of different species
 at different time points and we can test our hypothesis using a chi-2
-goodness of fit test.Besides, power analysis will be conducted using
-`pwr` package. A single test should be conducted for all for species
-over 2021-2030 period. If the test finds significant difference, then an
+goodness of fit test. Besides, power analysis will be conducted. A single 
+test should be conducted for all for species over 2021-2030 
+period. If the test finds significant difference, then an
 exploratory test should be conducted (further details explained in next
 sections) to determine new values for the coefficients using the data
 from Saskatchewan bat community 2021-2030 using a genetic algorithm
@@ -338,6 +346,10 @@ Enter your response here.
 p-values, confidence intervals, and effect sizes are standard means for making an inference, and any level is acceptable, though some criteria must be specified in this or previous fields. Bayesian analyses should specify a Bayes factor or a credible interval. If you are selecting models, then how will you determine the relative quality of each? In regards to multiple comparisons, this is a question with few "wrong" answers. In other words, transparency is more important than any specific method of controlling the false discovery rate or false error rate. One may state an intention to report all tests conducted or one may conduct a specific correction procedure; either strategy is acceptable.
 
 Example: We will use the standard p<.05 criteria for determining if the ANOVA and the post hoc test suggest that the results are significantly different from those expected if the null hypothesis were correct. The post-hoc Tukey-Kramer test adjusts for multiple comparisons. -->
+
+For all analysis type I error treshold will be set to 0.05. Alpha error correction 
+will be done using Bonferroni method to address effect of conducting multiple tests\
+simultaneously on type I error. 
 ```
 ## Data exclusion
 
