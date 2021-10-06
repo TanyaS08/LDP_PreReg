@@ -82,8 +82,6 @@ interspecific competition.
 
 # Design Plan
 
-<!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
-
 ## Study type
 
 **Observational Study**. Data is collected from study subjects that are
@@ -111,11 +109,7 @@ Not applicable
 
 # Sampling Plan
 
-<!-- In this section we’ll ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study. -->
-
 ## Existing data
-
-<!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io). -->
 
 **Registration prior to analysis of the data**. As of the date of
 submission, the data exist and you have accessed it, though no analysis
@@ -128,13 +122,6 @@ confirmatory data analysis.
 
 ## Explanation of existing data
 
-```{=html}
-<!-- If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study.
-
-An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point.
-
-Example: An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point. -->
-```
 Our dataset will be from 2010-2030, and the dataset from 2010-2021
 already exists. Our access to the dataset has been limited because, all
 team members except HW come from other departments and laboratories with
@@ -152,13 +139,6 @@ the data only after 2030 once all data collection is complete.
 
 ## Data collection procedures
 
-```{=html}
-<!-- Please describe the process by which you will collect your data. If you are using human subjects, this should include the population from which you obtain subjects, recruitment efforts, payment for participation, how subjects will be selected for eligibility from the initial pool (e.g. inclusion and exclusion rules), and your study timeline. For studies that donÍt include human subjects, include information about how you will collect samples, duration of data gathering efforts, source or location of samples, or batch numbers you will use.
-
-The answer to this question requires a specific set of instructions so that another person could repeat the data collection procedures and recreate the study population. Alternatively, if the study population would be unable to be reproduced because it relies on a specific set of circumstances unlikely to be recreated (e.g., a community of people from a specific time and location), the criteria and methods for creating the group and the rationale for this unique set of subjects should be clear.
-
-Example: Participants will be recruited through advertisements at local pastry shops. Participants will be paid $10 for agreeing to participate (raised to $30 if our sample size is not reached within 15 days of beginning recruitment). Participants must be at least 18 years old and be able to eat the ingredients of the pastries. -->
-```
 **Study site:** West Block, Cypress Hills Provincial Park, Saskatchewan,
 Canada.
 
@@ -196,22 +176,12 @@ captured and initials of the personnel collecting the capture.
 
 ## Sample size
 
-```{=html}
-<!-- Describe the sample size of your study. How many units will be analyzed in the study? This could be the number of people, birds, classrooms, plots, interactions, or countries included. If the units are not individuals, then describe the size requirements for each unit. If you are using a clustered or multilevel design, how many units are you collecting at each level of the analysis? For some studies, this will simply be the number of samples or the number of clusters. For others, this could be an expected range, minimum, or maximum number.
-
-Example: Our target sample size is 280 participants. We will attempt to recruit up to 320, assuming that not all will complete the total task. -->
-```
 Our target sample size is 2000 individuals. However, we do not have a
 definitive pre-determined count and cannot control the number of bats we
 capture each year.
 
 ## Sample size rationale
 
-```{=html}
-<!-- This could include a power analysis or an arbitrary constraint such as time, money, or personnel. This gives you an opportunity to specifically state how the sample size will be determined. A wide range of possible answers is acceptable; remember that transparency is more important than principled justifications. If you state any reason for a sample size upfront, it is better than stating no reason and leaving the reader to "fill in the blanks." Acceptable rationales include: a power analysis, an arbitrary number of subjects, or a number based on time or monetary constraints.
-
-Example: We used the software program G*Power to conduct a power analysis. Our goal was to obtain .95 power to detect a medium effect size of .25 at the standard .05 alpha error probability. -->
-```
 We do not have control over how many bats will be captured in a night.
 From anecdotal knowledge and previous experience we estimate that we
 will to capture anywhere between 100-200 bats per summer. Therefore,
@@ -220,13 +190,6 @@ bats.
 
 ## Stopping rule
 
-```{=html}
-<!-- If your data collection procedures do not give you full control over your exact sample size, specify how you will decide when to terminate your data collection. 
-
-You may specify a stopping rule based on p-values only in the specific case of sequential analyses with pre-specified checkpoints, alphas levels, and stopping rules. Unacceptable rationales include stopping based on p-values if checkpoints and stopping rules are not specified. If you have control over your sample size, then including a stopping rule is not necessary, though it must be clear in this question or a previous question how an exact sample size is attained.
-
-Example: We will post participant sign-up slots by week on the preceding Friday night, with 20 spots posted per week. We will post 20 new slots each week if, on that Friday night, we are below 320 participants. -->
-```
 The station where researchers live during the field season is owned by
 the University of Regina, who use the station for an undergraduate class
 during the last week of August. The field station is closed after that,
@@ -241,27 +204,13 @@ endemic to the population.
 
 # Variables
 
-<!-- In this section you can describe all variables (both manipulated and measured variables) that will later be used in your confirmatory analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. If you have variables which you are measuring for exploratory analyses, you are not required to list them, though you are permitted to do so. -->
-
 ## Manipulated variables
 
-```{=html}
-<!-- Describe all variables you plan to manipulate and the levels or treatment arms of each variable. This is not applicable to any observational study. For any experimental manipulation, you should give a precise definition of each manipulated variable. This must include a precise description of the levels at which each variable will be set, or a specific definition for each categorical treatment. For example, “loud or quiet,” should instead give either a precise decibel level or a means of recreating each level. 'Presence/absence' or 'positive/negative' is an acceptable description if the variable is precisely described.
-
-Example: We manipulated the percentage of sugar by mass added to brownies. The four levels of this categorical variable are: 15%, 20%, 25%, or 40% cane sugar by mass. -->
-```
 'Raw' bat species abundance records will be transformed to a
 proportional abundance which will be used in the modelling process.
 
 ## Measured variables
 
-```{=html}
-<!-- Describe each variable that you will measure. This will include outcome measures, as well as any predictors or covariates that you will measure. You do not need to include any variables that you plan on collecting if they are not going to be included in the confirmatory analyses of this study.
-
-Observational studies and meta-analyses will include only measured variables. As with the previous questions, the answers here must be precise. For example, 'intelligence,' 'accuracy,' 'aggression,' and 'color' are too vague. Acceptable alternatives could be 'IQ as measured by Wechsler Adult Intelligence Scale' 'percent correct,' 'number of threat displays,' and 'percent reflectance at 400 nm.'
-
-Example: The single outcome variable will be the perceived tastiness of the single brownie each participant will eat. We will measure this by asking participants ‘How much did you enjoy eating the brownie’ (on a scale of 1-7, 1 being 'not at all', 7 being 'a great deal') and 'How good did the brownie taste' (on a scale of 1-7, 1 being 'very bad', 7 being 'very good'). -->
-```
 We are going to be measuring the population size of the bat species in
 the Cypress Hills before and after the detection of *P. destructans*. We
 will measure this by counting how many bats of each species we catch in
@@ -273,7 +222,6 @@ Not applicable.
 
 # Analysis Plan
 
-See Figure 1.
 
 ### Are there significant changes in population size for bat species in Cypress Hills before and after the introduction of *P. destructans*?
 
@@ -286,6 +234,18 @@ package in R. We expect to see significant differences in population
 size before and after infection.
 
 ### Predictive model of bat community composition change
+
+See Figure 1 for how we expect model output to potentially look
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("data/sim_data.R")
+```
+
+```{r plot, echo=FALSE, fig.cap="Expected changes in bat species frequencies after the introduction of white nose syndrome in 2019 the Cypress hill region of Saskatchewan Province.", message=FALSE, warning=FALSE}
+p
+```
+
 
 To investigate effect of WNS on bat community as a whole instead of
 investigating species individually, we have also developed a
@@ -349,33 +309,16 @@ analysis should be conducted.
 
 ## Transformations
 
-```{=html}
-<!-- If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process. If any categorical predictors are included in a regression, indicate how those variables will be coded (e.g. dummy coding, summation coding, etc.) and what the reference category will be.
-
-Example: The "Effect of sugar on brownie tastiness" does not require any additional transformations. However, if it were using a regression analysis and each level of sweet had been categorically described (e.g. not sweet, somewhat sweet, sweet, and very sweet), 'sweet' could be dummy coded with 'not sweet' as the reference category. -->
-```
 N/A
 
 ## Inference criteria
 
-```{=html}
-<!-- What criteria will you use to make inferences? Please describe the information youÍll use (e.g. p-values, bayes factors, specific model fit indices), as well as cut-off criterion, where appropriate. Will you be using one or two tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this?
-
-p-values, confidence intervals, and effect sizes are standard means for making an inference, and any level is acceptable, though some criteria must be specified in this or previous fields. Bayesian analyses should specify a Bayes factor or a credible interval. If you are selecting models, then how will you determine the relative quality of each? In regards to multiple comparisons, this is a question with few "wrong" answers. In other words, transparency is more important than any specific method of controlling the false discovery rate or false error rate. One may state an intention to report all tests conducted or one may conduct a specific correction procedure; either strategy is acceptable.
-
-Example: We will use the standard p<.05 criteria for determining if the ANOVA and the post hoc test suggest that the results are significantly different from those expected if the null hypothesis were correct. The post-hoc Tukey-Kramer test adjusts for multiple comparisons. -->
-```
 For all analysis type I error threshold will be set to 0.05. Alpha error
 correction will be done using the Bonferroni method to address the
 effect of conducting multiple tests\\simultaneously on type I error.
 
 ## Data exclusion
 
-```{=html}
-<!-- How will you determine what data or samples, if any, to exclude from your analyses? How will outliers be handled? Will you use any awareness check? Any rule for excluding a particular set of data is acceptable. One may describe rules for excluding a participant or for identifying outlier data.
-
-Example: No checks will be performed to determine eligibility for inclusion besides verification that each subject answered each of the three tastiness indices. Outliers will be included in the analysis. -->
-```
 See missing data.
 
 ## Missing data
@@ -384,19 +327,6 @@ We might expect bat records not to have a species identifier (e.g. not
 able to identify species in field, etc). As this is data of interest
 these records will have to be removed as there is no easy way to
 re-examine an individual once released.
-
-## Exploratory analyses (optional)
-
-# Other
-
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-source("data/sim_data.R")
-```
-
-```{r plot, echo=FALSE, fig.cap="Expected changes in bat species frequencies after the introduction of white nose syndrome in 2019 the Cypress hill region of Saskatchewan Province.", message=FALSE, warning=FALSE}
-p
-```
 
 # References
 
